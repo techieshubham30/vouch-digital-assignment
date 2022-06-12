@@ -23,9 +23,31 @@
     display:flex;
     justify-content:space-between;
     padding:2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
 }
 
 .heading-btn-container{
     display:flex;
     gap:1rem;
+   
 }
+
+@media (max-width: 920px) {
+    .main-container {
+        flex-direction: column;
+    }
+    .image-container{
+        visibility:hidden;
+    }
+    .form-container{
+        width:100%;
+        margin:0 auto;
+    }
+    .heading-container{
+        padding:1rem;
+    }
+    .heading-btn-container{
+        visibility:hidden;
+    }
+ }
+ 
