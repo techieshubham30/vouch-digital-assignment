@@ -43,6 +43,9 @@
   letter-spacing: 0.7px;
 }
 
+.form__btn:hover{
+    background-color:#1A5BB9;
+}
 .form {
   display: flex;
   flex-direction: column;
