@@ -1,0 +1,20 @@
+
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top:7rem;
+}
+
+.image-container{
+    position: relative;
+    display: flex;
+    border-right: 1px solid var(--light-grey);
+    width: 50%;
+    flex-direction: column;
+}
+
+.form-container{
+    width:35%;
+    display:flex;
+    align-items: center;
+}

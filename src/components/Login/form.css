@@ -1,0 +1,49 @@
+.form__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1.3rem;
+}
+
+.form__input {
+  padding: 0.8rem;
+  border: 0.5px solid var(--light-black);
+
+}
+
+.form__inputs p {
+  color: var(--error-color);
+  font-size: 1.3rem;
+}
+
+.form {
+  width: 100%;
+  padding: 5rem;
+}
+
+.form__title {
+  margin-bottom: 3rem;
+  text-align:center;
+  font-size:3rem;
+}
+
+.form__label {
+  font-size: 1.5rem;
+}
+
+.form__btn {
+  padding: 1.2rem 2rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: var(--primary-color);
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  letter-spacing: 0.7px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
