@@ -30,7 +30,6 @@ const Form = () => {
 
       setErrorMgs("");
       setFormData({ email: "", password: "" });
-      setShowToast(true);
       toast.success('Login Sucessfull!', {
         position: "top-right",
         autoClose: 5000,
